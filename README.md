@@ -1,12 +1,12 @@
 # Django http.cat
-## This tiny library lets you easily return pictures from http.cat in case of error (404, 500, etc)
+### This tiny library lets you easily return pictures from http.cat in case of error (404, 500, etc)
 
-### Installation
+## Installation
 Just use pip
     pip install django-http-cat
 > Not yet on Pypi, wait for tomorrow...
 
-### Configuration
+## Configuration
 Simple add the middleware your django ```MIDDLEWARE_CLASSES``` setting.
 ```
 MIDDLEWARE_CLASSES = [
