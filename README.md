@@ -3,6 +3,7 @@
 
 ## Installation
 Just use pip
+
     pip install django-http-cat
 > Not yet on Pypi, wait for tomorrow...
 
