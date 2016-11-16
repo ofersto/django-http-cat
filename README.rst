@@ -20,7 +20,7 @@ Configuration
 Simply add the middleware your django ``MIDDLEWARE_CLASSES`` setting.
 
 
-.. code::python
+.. code::
 
     MIDDLEWARE_CLASSES = [
         ...
