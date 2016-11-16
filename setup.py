@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name = 'django-http-cat',
-    packages = ['django-http-cat'],
+    packages = ['httpcat'],
     version = '0.1',
     description = 'Fetch pictures from http.cat as error pages',
     license = "MIT",
