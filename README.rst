@@ -19,6 +19,7 @@ Configuration
 
 Simply add the middleware your django ``MIDDLEWARE_CLASSES`` setting.
 
+
 .. code::python
 
     MIDDLEWARE_CLASSES = [
@@ -28,6 +29,7 @@ Simply add the middleware your django ``MIDDLEWARE_CLASSES`` setting.
         'httpcat.middleware.HttpCatErrorHandler'
 
     ]
+
 
 You don't need to include it in your ``INSTALLED_APPS``.
 
