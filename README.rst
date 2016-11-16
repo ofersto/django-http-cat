@@ -23,13 +23,9 @@ Simply add the middleware your django ``MIDDLEWARE_CLASSES`` setting.
 .. code::python
 
     MIDDLEWARE_CLASSES = [
-
         ...
-
         'httpcat.middleware.HttpCatErrorHandler'
-
     ]
-
 
 You don't need to include it in your ``INSTALLED_APPS``.
 
